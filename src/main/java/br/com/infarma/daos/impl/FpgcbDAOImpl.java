@@ -34,7 +34,6 @@ public class FpgcbDAOImpl extends DAOImpl<Fpgcb, Integer> implements FpgcbDAO {
 
   }
 
-
   @Override
   public void createBatch(List<Fpgcb> list) {
   }
