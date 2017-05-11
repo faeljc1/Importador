@@ -1,0 +1,49 @@
+body {
+    padding-top: 50px;
+    overflow:hidden;
+}
+
+.navbar {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+.navbar-fixed-bottom{
+    background-color: #0181ae !important;
+    border-color: #E7E7E7;
+}
+.form-control {
+    padding: 5px !important;
+}
+.jumbotron {
+    margin-bottom: 0px;
+    padding-top: 2px;
+}
+
+#main-footer {
+    background: #0181ae !important;
+}
+
+#main-footer p {
+    color: #fff;
+    line-height: 15px;
+    font-size: 10px;
+    margin-bottom: 6px;
+}
+
+.logope {
+    background: url("/dist/images/logope.png") no-repeat;
+    width: 40px;
+    text-indent: -9999px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-bottom: 5px !important;
+}
+
+.progress {
+    margin-top: 16px;
+}
