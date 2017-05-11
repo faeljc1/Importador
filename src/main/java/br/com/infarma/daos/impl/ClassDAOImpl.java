@@ -1,22 +1,12 @@
 package br.com.infarma.daos.impl;
 
 import br.com.infarma.daos.ClassDAO;
-import br.com.infarma.daos.FabriDAO;
-import br.com.infarma.daos.TransDAO;
 import br.com.infarma.daos.rowmappers.ClassRowMapper;
-import br.com.infarma.daos.rowmappers.FabriRowMapper;
-import br.com.infarma.daos.rowmappers.TransRowMapper;
 import br.com.infarma.models.Class;
-import br.com.infarma.models.Fabri;
-import br.com.infarma.models.Trans;
 import br.com.infarma.utils.scripts.ClassScript;
-import br.com.infarma.utils.scripts.EmpreScript;
-import br.com.infarma.utils.scripts.FabriScript;
-import br.com.infarma.utils.scripts.TransScript;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.logging.Logger;
 
 @Repository("jdbcClassDAO")
